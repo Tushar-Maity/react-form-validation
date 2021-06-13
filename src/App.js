@@ -1,9 +1,11 @@
 import React from 'react'
 
+import AddUser from './Users/AddUser'
+
 function App() {
   return (
-    <div className="App">
-
+    <div>
+      <AddUser />
     </div>
   );
 }
