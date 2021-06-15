@@ -17,7 +17,7 @@ const AddUser = (props) => {
         if(+enteredAge < 1) {
             return;
         }
-        console.log(enteredName, enteredAge);
+        props.onAddUser(enteredName, enteredAge);
         setEnteredName('')
         setEnteredAge('')
     }
@@ -31,7 +31,7 @@ const AddUser = (props) => {
     };
 
     return(
-        <Card>
+        <Card className="input">
             <form onSubmit={addUserHandler}>
                 <label htmlFor="username">Username</label>
                 <input type="text" id="username" onChange={nameChangeHandler} value={enteredName}/>
