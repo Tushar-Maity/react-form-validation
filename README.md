@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Check out my Project live on your Device
 
 Go to [Dynamic-form-validation](https://dynamic-form-validation.netlify.app/)
